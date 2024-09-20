@@ -359,7 +359,7 @@ body {
 }
 
 .counter-btn {
-  color: var(--sea-green);
+  color: var(--sea-orange);
   font-size: 18px;
   padding: 19px;
   transition: var(--transition-1);
@@ -367,10 +367,10 @@ body {
 
 .counter-btn ion-icon { --ionicon-stroke-width: 80px; }
 
-.counter-btn:is(:hover, :focus) { color: var(--shamrock-green); }
+.counter-btn:is(:hover, :focus) { color: var(--shamrock-orange); }
 
 .counter-wrapper .span {
-  color: var(--eerie-black);
+  color: var(--eerie-white);
   font-weight: var(--fw-700);
 }
 
@@ -380,7 +380,7 @@ body {
   justify-content: center;
   gap: 15px;
   width: 100%;
-  background-color: var(--sea-green);
+  background-color: var(--sea-orange);
   color: var(--white);
   font-weight: var(--fw-500);
   padding: 18px;
@@ -391,7 +391,7 @@ body {
 
 .cart-btn ion-icon { --ionicon-stroke-width: 50px; }
 
-.cart-btn:is(:hover, :focus) { background-color: var(--shamrock-green); }
+.cart-btn:is(:hover, :focus) { background-color: var(--shamrock-orange); }
 
 
 
