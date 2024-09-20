@@ -83,6 +83,7 @@ h1 {
 h2 {  
 	font-size: 32px; 
 	line-height: 1.13; 
+	color: white;
 }
 
 h3 {  
@@ -102,9 +103,26 @@ h6 {
 }
 
 img {
-	border: none;
-	max-width: 100%;
+    border: none;
+    max-width: 80%;
+    height: 500px;
 }
+
+img.book-image {
+    transform: rotate(10deg); /* Inclinaison pour l'image du livre */
+    transition: transform 0.3s; /* Pour une animation douce */
+}
+
+img.book-image:hover {
+    transform: rotate(1deg); /* Réinitialise la rotation au survol */
+}
+
+
+.author-image {
+    max-width: 100%;
+    height: auto;
+}
+
 
 strong {
 	font-weight: 500;
@@ -171,8 +189,15 @@ button {
 
 button:focus {
 	outline: none;
-	border: none;
+	border: 50px;
 }
+
+
+.mu-primary-btn:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+    transform: scale(1.2); /* Légère augmentation de la taille */
+}
+
 
 /*Wordpress default class*/
 
