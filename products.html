@@ -27,9 +27,10 @@
             transform: scale(1.05);
         }
         .mu-popular-price-tag {
-            background-color: #e9f8ff;
+            background-color: #e9e9e9; /* Gris clair pour les éléments populaires */
         }
         .mu-order-btn {
+            background-color: #333; /* Bouton gris foncé */
             color: white;
             padding: 10px 20px;
             border: none;
@@ -37,7 +38,9 @@
             text-decoration: none;
             font-weight: bold;
         }
-        
+        .mu-order-btn:hover {
+            background-color: #555; /* Couleur au survol en gris un peu plus clair */
+        }
         .mu-price-feature {
             list-style-type: none;
             padding: 0;
@@ -53,11 +56,13 @@
             font-size: 2rem;
             font-weight: bold;
             margin-bottom: 20px;
+            color: #333; /* Gris pour les titres */
         }
         .mu-header-dot {
             display: block;
             height: 2px;
             width: 50px;
+            background: #777; /* Petit trait gris au-dessous des titres */
             margin: 10px auto;
         }
     </style>
@@ -85,7 +90,7 @@
                                 <div class="mu-pricing-single">
                                     <img src="https://via.placeholder.com/300x200.png?text=Version+Française+Vol+1" alt="Version Française Vol 1" class="product-image">
                                     <div class="mu-pricing-single-head">
-                                        <h4>Version Française Vol 2</h4>
+                                        <h4>Version Française Vol 1</h4>
                                         <p class="mu-price-tag">
                                             <span>150.000</span> FCFA
                                         </p>
@@ -107,7 +112,7 @@
                                 <div class="mu-pricing-single mu-popular-price-tag">
                                     <img src="https://via.placeholder.com/300x200.png?text=Version+Française+Vol+2" alt="Version Française Vol 2" class="product-image">
                                     <div class="mu-pricing-single-head">
-                                        <h4>Version Française Vol 1</h4>
+                                        <h4>Version Française Vol 2</h4>
                                         <p class="mu-price-tag">
                                             <span>150.000</span> FCFA
                                         </p>
